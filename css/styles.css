@@ -9,6 +9,7 @@
     --contact-color: rgba(255, 255, 255, 0.6);
     --background-button: #188CE8;
     --background-about: #F5F4FA;
+    --background-section: #E5E5E5;
 }
 
 .list {
@@ -32,7 +33,6 @@ width: 1200px;
 margin: 0 auto;
 padding-left: 15px;
 padding-right: 15px;
-background: var(--title-text-color);
 }
 
 .section {
@@ -65,12 +65,7 @@ img {
 
 /* ========= HEADER ========== */
 
-.header {
-/* width: 1600px; */
-/* height: 80px; */
-/* padding-top: 32px; */
-/* padding-bottom: 32px; */
-}
+
 
 .header-container {
 display: flex;
@@ -80,22 +75,16 @@ align-items: center;
 .navigation {
 display: flex;
 align-items: center;
-/* width: 215px; */
-/* height: 16px; */
 }
 
 .menu-list {
 display: flex;
 align-items: center;
-/* width: 294px; */
-/* height: 16px; */
 margin-left: auto;    
 }
 
 
 .logo {
-/* margin-left: 215px; */
-/* width: 145px; */
 margin-right: 93px;
 padding-top: 24px;
 padding-bottom: 25px;
@@ -136,8 +125,6 @@ color: var(--accent-color);
 
 .menu-link.current {
 color: var(--accent-color);
-/* width: 49px; */
-/* height: 16px; */
 color: var(--accent-color);
 padding-width: 135px;
 padding-height: 16px; 
@@ -156,8 +143,8 @@ line-height: 16px;
 color: var(--accent-color);
 padding-width: 122px;
 padding-height: 16px;
-/* margin-right: 215px; */
 }
+
 /* ========= END HEADER ========== */
 
 /* ========= HERO ========== */
@@ -166,16 +153,11 @@ padding-height: 16px;
 .hero {
 padding-top: 200px;
 padding-bottom: 200px;
-/* padding-left: 452px; */
-/* padding-right: 452px; */
 text-align: center;
 }
 
 .container-section {
-width: 1600px;
-/* height: 600px; */
-/* left: 0px; */
-/* top: 80px; */
+max-width: 1600px;
 margin: avto;
 background: var(--background-color);
 }
@@ -230,14 +212,13 @@ background: var(--background-button);
 
 
 .features {
-width: 1200px;
-background: var(--background-about);
+padding-top: 94px;
+padding-bottom: 94px;
 }
 
+
 .features-list {
-/* padding-top: 94px; */
 display: flex;
-/* flex-wrap: wrap; */
 margin-top: -30px;
 margin-left: -30px;
 }
@@ -256,10 +237,6 @@ margin-left: 30px;
 
 .features-title {
 font-family: var(--main-font);
-/* width: 270px; */
-/* height: 16px; */
-/* margin-left: 215px; */
-/* font-weight: 700; */
 font-size: 14px;
 line-height: 1.15;
 letter-spacing: 0.03em;
@@ -273,9 +250,6 @@ margin-bottom: 10px;
 
 .description {
 width: 270px;
-/* height: 75px; */
-/* margin-left: 215px; */
-padding-top: 10px;
 }
 
 .description,
@@ -294,22 +268,20 @@ color: var(--tel-link-color);
 /* ========= BOX ========== */
 
 .box {
-/* width: 1170px; */
-/* height: 386px; */
-/* margin-left: 215px; */
 background: var(--title-text-color);
+padding-top: 94px;
+padding-bottom: 94px;
 }
 
 .box-about-title {
 font-family: var(--main-font);
-padding-top: 94px;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--meny-color);
-padding-bottom: 50px;
+margin-bottom: 50px;
 }
 
 .box-list {
@@ -324,9 +296,11 @@ justify-content: space-between;
 
 /* ========= ABOUT ========== */
 
-.container {
+.about {
 background: var(--background-about);
 }
+
+
 .box-about-title {
 text-align: center;
 }
@@ -347,8 +321,9 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .about-description {
-/* padding-top: 30px; */
+margin-bottom: 10px;
 }
+
 
 .about-description,
 .about-description-item {
@@ -359,7 +334,6 @@ font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--meny-color);
-margin-bottom: 10px;
 }
 
 .about-description-item {
@@ -369,21 +343,33 @@ color: var(--tel-link-color);
 
 .about-description-item-staff {
 padding-top: 10px;
-padding-bottom: 30px;
+padding-bottom: 10px;
 }
 
 /* ========= END ABOUT ========== */
 
 /* ========= CONTACT INFORMATION ========== */
 
+.footer {
+padding-top: 60px;
+padding-bottom: 60px;
+}
+
 .container-contact {
-width: 1600px;
-height: 252px;
 left: 0px;
 top: 2097px;
 margin: avto;
 background: var(--background-color);
 padding-top: 60px;
+}
+
+.logo-footer {
+font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.20;
+letter-spacing: 0.03em;
+color: var(--accent-color);
 }
 
 .studio-logo {
@@ -395,9 +381,6 @@ padding-top: 20px;
 }
 
 .contact-adress-link {
-width: 231px;
-height: 21px;
-margin-left: 215px;
 font-family: var(--main-font);
 color: var(--title-text-color);
 }
@@ -405,10 +388,6 @@ color: var(--title-text-color);
 
 
 .contact-link {
-width: 231px;
-height: 21px;
-margin-left: 215px;
-padding-top: 9px;
 font-family: var(--main-font);
 color: var(--contact-color);
 }
@@ -440,7 +419,7 @@ color: var(--accent-color);
 }
 
 .menu-item:not(:last-child) {
-margin-right: 40px;
+margin-right: 50px;
 }
 
 .studio {
@@ -455,7 +434,6 @@ font-size: 14px;
 line-height: 1.15;
 letter-spacing: 0.02em;
 color: var(--meny-color);
-margin-right: 40px;
 }
 
 .menu-link:hover,
@@ -598,9 +576,9 @@ margin-right: 8px;
 /* ========= CONTACT INFORMATION PORTFOLIO ========== */
 
 
+
+
 .container-portfolio {
-width: 1600px;
-height: 252px;
 background: var(--background-color);
 }
 
