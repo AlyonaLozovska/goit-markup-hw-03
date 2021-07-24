@@ -470,6 +470,8 @@ color: var(--tel-link-color);
 .section-filters {
 display: flex;
 justify-content: center;
+padding-bottom: 50px;
+margin-top: 94px;
 }
 
 .filters-title {
@@ -554,7 +556,7 @@ color: var(--tel-link-color);
 
 
 .project-list {
-padding-top: 50px;
+/* padding-top: 50px; */
 margin-left: 215px;
 display: flex;
 flex-wrap: wrap;
