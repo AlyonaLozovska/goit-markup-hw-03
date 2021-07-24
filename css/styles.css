@@ -158,7 +158,7 @@ text-align: center;
 
 .container-section {
 max-width: 1600px;
-margin: avto;
+margin: auto;
 background: var(--background-color);
 }
 
@@ -289,7 +289,9 @@ display: flex;
 justify-content: space-between;
 }
 
-
+.box-list-item {
+width: 370px;  
+}
 
 
 /* ========= END BOX ========== */
@@ -342,8 +344,8 @@ color: var(--tel-link-color);
 }
 
 .about-description-item-staff {
-padding-top: 10px;
-padding-bottom: 10px;
+padding-top: 30px;
+padding-bottom: 30px;
 }
 
 /* ========= END ABOUT ========== */
@@ -377,7 +379,7 @@ color: var(--title-text-color);
 }
 
 .footer-list {
-padding-top: 20px;
+margin-top: 20px;
 }
 
 .contact-adress-link {
@@ -390,6 +392,7 @@ color: var(--title-text-color);
 .contact-link {
 font-family: var(--main-font);
 color: var(--contact-color);
+padding-top: 9px;
 }
 
 /* ========= END CONTACT INFORMATION ========== */
@@ -483,7 +486,8 @@ line-height: 1.63;
 letter-spacing: 0.03em;
 cursor: pointer;
 color: var(--meny-color);
-border: none
+border: none;
+border-radius: 4px;
 }
 
 
@@ -526,8 +530,8 @@ color: var(--title-text-color);
 font-family: var(--main-font);
 width: 322px;
 height: 36px;
-padding-top: 20px;
-padding-left: 24px;
+margin-top: 20px;
+margin-left: 24px;
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
@@ -540,8 +544,8 @@ font-family: var(--main-font);
 width: 322px;
 height: 30px;
 padding-top: 4px;
-padding-left: 24px;
-padding-bottom: 20px;
+margin-left: 24px;
+margin-bottom: 20px;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
