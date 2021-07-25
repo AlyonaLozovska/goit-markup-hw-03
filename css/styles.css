@@ -466,6 +466,10 @@ color: var(--tel-link-color);
 /* ========= FILTERS ========== */
 
 
+.filters {
+margin-bottom: 94px;
+}
+
 
 .section-filters {
 display: flex;
