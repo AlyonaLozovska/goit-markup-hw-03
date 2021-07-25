@@ -125,7 +125,6 @@ color: var(--accent-color);
 
 .menu-link.current {
 color: var(--accent-color);
-color: var(--accent-color);
 padding-width: 135px;
 padding-height: 16px; 
 }
@@ -401,13 +400,12 @@ padding-top: 9px;
 
 
 
-
-
 /* ========= HEADER ========== */
 
 .header {
 /* padding-top: 32px; */
 /* padding-bottom: 32px; */
+border-bottom: 1px;
 }
 
 .logo {
@@ -435,7 +433,15 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.15;
 letter-spacing: 0.02em;
-color: var(--meny-color);
+}
+
+.menu-link {
+color: var(--meny-color);   
+}
+
+.mail-link,
+.tel-link {
+ color: var(--tel-link-color);   
 }
 
 .menu-link:hover,
@@ -458,24 +464,27 @@ margin-right: 40px;
 color: var(--accent-color); 
 }
 
-.tel-link {
-color: var(--tel-link-color);
+.tel-link:hover,
+.tel-link:focus {
+color: var(--accent-color);
 }
+
+
 /* ========= END HEADER ========== */
 
 /* ========= FILTERS ========== */
 
 
 .filters {
-margin-bottom: 94px;
+padding-top: 94px;
+padding-bottom: 94px;
 }
 
 
 .section-filters {
 display: flex;
 justify-content: center;
-padding-bottom: 50px;
-margin-top: 94px;
+margin-bottom: 50px;
 }
 
 .filters-title {
@@ -558,6 +567,11 @@ letter-spacing: 0.03em;
 color: var(--tel-link-color);
 }
 
+.project-description-item-project {
+border-right: 1px;
+border-left: 1px;
+border-bottom: 1px;
+}
 
 .project-list {
 /* padding-top: 50px; */
