@@ -542,11 +542,7 @@ color: var(--title-text-color);
 
 .project-description {
 font-family: var(--main-font);
-width: 322px;
-height: 36px;
-margin-top: 20px;
-margin-left: 24px;
-margin-right: 24px;
+margin-top: 4px;
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
@@ -556,11 +552,7 @@ color: var(--meny-color);
 
 .project-description-item {
 font-family: var(--main-font);
-width: 322px;
-height: 30px;
-padding-top: 4px;
-margin-left: 24px;
-margin-bottom: 20px;
+margin-top: 4px;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
@@ -569,12 +561,14 @@ color: var(--tel-link-color);
 }
 
 .project-description-item-project {
-border-right: 1px;
-border-left: 1px;
-border-bottom: 1px;
 background: var(--title-text-color);
+padding-left: 24px;
+padding-bottom: 20px;
 box-sizing: border-box;
-/* border: 1px solid #EEEEEE; */
+border: 1px solid #EEEEEE;
+border-top: 0;
+padding: 30px;
+padding-right: 0;
 }
 
 .project-list {
@@ -586,7 +580,6 @@ margin-left: -30px;
 }
 
 .project-list-item {
-/* width: 370px; */
 flex-basis: calc((100% - 3 * 30px) / 3);
 margin-top: 30px;
 margin-left: 30px;
